@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Spartan&display=swap');
+
+/*  for all pages
+    start of header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+    margin-top: 1em;
+}
+
+.logo img {
+    height: 55px;
+    width: 160px;
+}
+
+li,
+a {
+    font-family: 'Spartan', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: #939598;
+    font-size: 1em;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0px 15px;
+    /*justify-content: space-between;*/
+    transition: all 0.3s;
+}
+
+a:hover {
+    color: #058f99;
+}
+
+.register img {
+    height: 20px;
+    width: 30px;
+}
+
+.register a {
+    margin: 0% 2em;
+}
+
+/*
+    index page
+    start of main content*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1em 0em;
+}
+
+.container img,
+.txt,
+.txt2 {
+    height: 380px;
+    width: 380px;
+}
+
+.txt,
+.txt2 {
+    text-align: center;
+}
+
+.txt h1 {
+    font-family: 'Great Vibes', cursive;
+    color: #ff4d6d;
+    font-size: 2.5em;
+    padding: 10% 0%;
+}
+
+.txt p {
+    font-family: 'Spartan', sans-serif;
+    color: #ff758f;
+    font-size: 1.5em;
+}
+
+.txt button {
+    font-family: 'Spartan', sans-serif;
+    background-color: #ff4d6d;
+    color: white;
+    border: 2px solid;
+    padding: 1em 2em;
+    transition: all 0.25s;
+    margin: 0% 20%;
+}
+
+.txt button:hover {
+    background-color: #ff758f;
+    border-color: #ff8fa3;
+    /*box-shadow: 0 0.5em 0.5em -0.4em;*/
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+.txt2 h1 {
+    font-family: 'Spartan', sans-serif;
+    color: #058f99;
+    font-size: 2.5em;
+    padding: 10% 0% 0%;
+}
+
+.txt2 p {
+    font-family: 'Great Vibes', cursive;
+    color: #939598;
+    font-size: 1.5em;
+}
+
+.txt2 button {
+    font-family: 'Spartan', sans-serif;
+    background-color: #058f99;
+    color: white;
+    border: 2px solid;
+    padding: 1em 2em;
+    transition: all 0.25s;
+    margin: 0% 20%;
+}
+
+.txt2 button:hover {
+    background-color: #939598;
+    border-color: #65c4c9;
+    /*box-shadow: 0 0.5em 0.5em -0.4em;*/
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+/*
+    index page    
+    article content*/
+#home-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #058f99;
+}
+
+#home-article p {
+    font-family: 'Great Vibes', cursive;
+    color: #058f99;
+    font-size: 2.5em;
+}
+
+#home-article button {
+    font-family: 'Spartan', sans-serif;
+    background-color: #939598;
+    color: white;
+    border: 2px solid;
+    padding: 1em 2em;
+    transition: all 0.25s;
+    margin: 2% 0% 4%;
+}
+
+#home-article button:hover {
+    background-color: #058f99;
+    border-color: #65c4c9;
+    /*box-shadow: 0 0.5em 0.5em -0.4em;*/
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+/*
+    for all pages
+    footer*/
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info li {
+    margin-bottom: 5%;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer img {
+    align-items: flex-end;
+    height: 40px;
+    width: 40px;
+}
+
+footer {
+    border-top: 2px solid #058f99;
+}
+
